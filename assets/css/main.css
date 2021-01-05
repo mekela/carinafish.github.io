@@ -4491,3 +4491,34 @@ iframe.lazyload, video.lazyload, audio.lazyload, img.lazyload{
     width: 100%;
     object-fit: cover;
 }
+.blog-body{
+	background: #fff;
+	
+}
+.blog-body p, .blog-body h3, .blog-body h1, .blog-body h2, .blog-body h4, .blog-body h5, .blog-body h6{
+	color: #000;
+}
+.blog-body #header .logo strong{
+	background: #000;
+	color: #fff;
+}
+.blog-body #header nav a{
+	color: #000;
+}
+.blog-body #header nav a[href="#menu"]:hover{
+	color: #000 !important;
+}
+.blog-body #header nav a[href="#menu"]:before, .blog-body #header nav a[href="#menu"]:after{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='32' viewBox='0 0 24 32' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 2px%3B stroke: %23000000%3B %7D%3C/style%3E%3Cline x1='0' y1='11' x2='24' y2='11' /%3E%3Cline x1='0' y1='21' x2='24' y2='21' /%3E%3Cline x1='0' y1='16' x2='24' y2='16' /%3E%3C/svg%3E");
+}
+.blog-body .icon.alt:before{
+	background: #000;
+	color: #fff;
+}
+.blog-body .icon.ai-orcid{
+	color: #000;
+	font-size: 40px;
+}
+.blog-body #footer .copyright li{
+	color: #000;
+}
